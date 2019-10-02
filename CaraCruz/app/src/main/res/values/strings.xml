@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">CaraCruz</string>
-    <string name="tvTitulo">Head or Tails?</string>
-    <string name="tvInfo">Haga su apuesta</string>
-    <string name="bHead">Head</string>
+    <string name="tvTitulo">Heads or Tails?</string>
+    <string name="tvInfo">Place your bet</string>
+    <string name="bHead">Heads</string>
     <string name="bTails">Tails</string>
+    <string name="mensajeGanador">You win!</string>
+    <string name="mensajePerdedor">You lose!</string>
 </resources>

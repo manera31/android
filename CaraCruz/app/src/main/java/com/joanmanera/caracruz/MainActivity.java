@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 if (generarSorteo() == 0){
                     iImage.setImageResource(R.drawable.euro_cara);
-                    tvResult.setText("Has ganado!");
+                    tvResult.setText(R.string.mensajeGanador);
 
                 } else {
                     iImage.setImageResource(R.drawable.euro_cruz);
-                    tvResult.setText("Has perdido!");
+                    tvResult.setText(R.string.mensajePerdedor);
 
                 }
             }
@@ -45,11 +45,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 if (generarSorteo() == 0){
                     iImage.setImageResource(R.drawable.euro_cara);
-                    tvResult.setText("Has perdido!");
+                    tvResult.setText(R.string.mensajePerdedor);
 
                 } else {
                     iImage.setImageResource(R.drawable.euro_cruz);
-                    tvResult.setText("Has ganado!");
+                    tvResult.setText(R.string.mensajeGanador);
 
                 }
             }
@@ -58,6 +58,6 @@ public class MainActivity extends AppCompatActivity {
 
     private int generarSorteo(){
         Random rdn = new Random();
-        return rdn.nextInt(1-0+1) + 0;
+        return rdn.nextInt(2);
     }
 }

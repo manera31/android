@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CaraCruz</string>
+    <string name="tvTitulo">Cara o Cruz?</string>
+    <string name="tvInfo">Haga su apuesta</string>
+    <string name="bHead">Cara</string>
+    <string name="bTails">Cruz</string>
+    <string name="mensajeGanador">Has ganado!</string>
+    <string name="mensajePerdedor">Has perdido!</string>
+</resources>
