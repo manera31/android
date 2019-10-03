@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PiedraPapelTijeras</string>
+    <string name="titulo">Piedra, papel o tijera?</string>
+    <string name="mensajePerdedor">Has perdido!</string>
+    <string name="mensajeGanador">Has ganado!</string>
+    <string name="mensajeEmpate">Empate</string>
+</resources>

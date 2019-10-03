@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PiedraPapelTijeras</string>
+    <string name="titulo">Rock, paper or scissor?</string>
+    <string name="mensajePerdedor">You Win!</string>
+    <string name="mensajeGanador">You Lose!</string>
+    <string name="mensajeEmpate">Tie</string>
+
+</resources>
