@@ -46,6 +46,4 @@ public class FragmentDetalle extends Fragment {
         TextView tvEmail = getView().findViewById(R.id.tvEmail);
         tvEmail.setText(contacto.getEmail());
     }
-
-
 }

@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements IContactosListene
         setContentView(R.layout.activity_main);
 
         FragmentLista fragmentLista = (FragmentLista)getSupportFragmentManager().findFragmentById(R.id.FrgListado);
-        fragmentLista.setOnCorreoListener(this);
+        fragmentLista.setContactosListener(this);
     }
 
     @Override
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements IContactosListene
             ((FragmentDetalle)getSupportFragmentManager().findFragmentById(R.id.FrgDetalle)).mostrarDetalle(contacto);
         } else {
             Intent i = new Intent(this, DetalleActivity.class);
-            i.putExtra(DetalleActivity.EXTRA_TEXTO, o.getTexto());
+            i.putExtra(DetalleActivity.EXTRA_TEXTO, contacto);
             startActivity(i);
         }
     }

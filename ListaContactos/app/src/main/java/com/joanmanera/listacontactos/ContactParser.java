@@ -3,9 +3,15 @@ package com.joanmanera.listacontactos;
 import android.content.Context;
 import android.util.JsonReader;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONTokener;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
 public class ContactParser {
@@ -16,81 +22,53 @@ public class ContactParser {
         this.archivoContactos = c.getResources().openRawResource(R.raw.contacts);
     }
 
-    public boolean parse() throws IOException {
+
+
+    public boolean parse() {
         boolean parsed = false;
-        ArrayList<Contacto> contactosArrayList = new ArrayList<>();
-        JsonReader reader = new JsonReader(new InputStreamReader(archivoContactos, "UTF-8"));
+
 
         try {
-            reader.beginArray();
-            while (reader.hasNext()){
-                contactosArrayList.add(leerContacto(reader));
-            }
-            reader.endArray();
+            byte[] aux = new byte[archivoContactos.available()];
+            archivoContactos.read(aux);
+            archivoContactos.close();
 
-            contactos = new Contacto[contactosArrayList.size()];
-            for (int i = 0 ; i < contactos.length ; i++){
-                contactos[i] = contactosArrayList.get(i);
+            String json = new String(aux, "UTF-8");
+            JSONTokener tokener = new JSONTokener(json);
+
+            JSONArray jsonArray = new JSONArray(tokener);
+
+            contactos = new Contacto[jsonArray.length()];
+            for (int i = 0 ; i < jsonArray.length() ; i++){
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                int id = jsonObject.getInt("id");
+                String nombre = jsonObject.getString("name");
+                String apellido1 = jsonObject.getString("firstSurname");
+                String apellido2 = jsonObject.getString("secondSurname");
+                String foto = jsonObject.getString("photo");
+                String fechaNacimeinto = jsonObject.getString("birth");
+                String empresa = jsonObject.getString("company");
+                String email = jsonObject.getString("email");
+                String telefono1 = jsonObject.getString("phone1");
+                String telefono2 = jsonObject.getString("phone2");
+                String direccion = jsonObject.getString("address");
+
+                String apellidos = apellido1+apellido2;
+
+                contactos[i] = new Contacto(nombre, apellidos, direccion, empresa, telefono1, telefono2, email, fechaNacimeinto);
             }
 
             parsed = true;
 
-        } catch (IOException ioe){
-
-        } finally {
-            reader.close();
+        }catch (JSONException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
         return parsed;
-    }
-
-    private Contacto leerContacto (JsonReader reader) throws IOException {
-        String nombre = null;
-        String apellido1 = null;
-        String apellido2 = null;
-        String direccion = null;
-        String empresa = null;
-        String fechaNacimiento = null;
-        String telefono1 = null;
-        String telefono2 = null;
-        String email = null;
-
-        reader.beginObject();
-        while (reader.hasNext()){
-            String aux = reader.nextName();
-            switch (aux){
-                case "name":
-                    nombre = reader.nextString();
-                    break;
-                case "firstSurname":
-                    apellido1 = reader.nextString();
-                    break;
-                case "secondSurname":
-                    apellido2 = reader.nextString();
-                    break;
-                case "birth":
-                    fechaNacimiento = reader.nextString();
-                    break;
-                case "company":
-                    empresa = reader.nextString();
-                    break;
-                case "email":
-                    email = reader.nextString();
-                    break;
-                case "phone1":
-                    telefono1 = reader.nextString();
-                    break;
-                case "phone2":
-                    telefono2 = reader.nextString();
-                    break;
-                case "address":
-                    direccion = reader.nextString();
-                    break;
-            }
-        }
-        reader.endObject();
-        String apellidos = apellido1+apellido2;
-        return new Contacto(nombre, apellidos, direccion, empresa, telefono1, telefono2, email, fechaNacimiento);
     }
 
     public Contacto[] getContactos() {

@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import java.io.IOException;
+
 public class AdaptadorContactos extends ArrayAdapter<Contacto> {
     private Context context;
     private Contacto[] contactos;
@@ -32,7 +34,7 @@ public class AdaptadorContactos extends ArrayAdapter<Contacto> {
         TextView tvNombre = item.findViewById(R.id.tvNombre);
         tvNombre.setText(contactos[position].getNombre());
 
-        TextView tvTelefono1 = item.findViewById(R.id.tvTelefono1);
+        TextView tvTelefono1 = item.findViewById(R.id.tvTelefono);
         tvTelefono1.setText(contactos[position].getTelefono1());
 
         return item;

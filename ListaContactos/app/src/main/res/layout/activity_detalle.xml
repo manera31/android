@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/FrgDetalle"
-        android:name="com.joanmanera.correo.FragmentDetalle"
+        android:name="com.joanmanera.listacontactos.FragmentDetalle"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

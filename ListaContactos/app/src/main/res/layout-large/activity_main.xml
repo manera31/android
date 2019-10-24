@@ -8,13 +8,13 @@
     android:layout_height="match_parent">
     <fragment
         android:id="@+id/FrgListado"
-        android:name="com.joanmanera.correo.FragmentLista"
+        android:name="com.joanmanera.listacontactos.FragmentLista"
         android:layout_width="0px"
         android:layout_height="match_parent"
         android:layout_weight="30"/>
     <fragment
         android:id="@+id/FrgDetalle"
-        android:name="com.joanmanera.correo.FragmentDetalle"
+        android:name="com.joanmanera.listacontactos.FragmentDetalle"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="70"/>

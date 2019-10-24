@@ -15,23 +15,13 @@ import java.io.IOException;
 
 public class FragmentLista extends Fragment {
 
-    private Contacto[] contactos = getContactos();
+    private Contacto[] contactos;
 
     private ListView listView;
 
     private IContactosListener listener;
 
-    private Contacto[] getContactos(){
-        ContactParser contactParser = new ContactParser();//Falta poner el contexto
-        try {
-            if(contactParser.parse()){
-                return getContactos();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -43,19 +33,25 @@ public class FragmentLista extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         listView = getView().findViewById(R.id.LstListado);
+
+        ContactParser contactParser = new ContactParser(getActivity());//Falta poner el contexto
+        if(contactParser.parse()){
+            contactos = contactParser.getContactos();
+        }
+
         listView.setAdapter(new AdaptadorContactos(this, contactos));
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 if(listener != null){
-                    listener.onContactoListener((Contacto)adapterView.getItemAtPosition(i));
+                    listener.onContactoListener((Contacto)listView.getAdapter().getItem(i));
                 }
             }
         });
 
     }
 
-    public void setOnCorreoListener(IContactosListener listener){
+    public void setContactosListener(IContactosListener listener){
         this.listener = listener;
     }
 }
