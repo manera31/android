@@ -1,0 +1,952 @@
+[
+  {
+    "nia": 107945,
+    "nombre": "Olivia",
+    "apellido1": "Conley",
+    "apellido2": "Dean",
+    "fechaNacimiento": "1995-6-9",
+    "email": "olivia.conley.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "4.91",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "7.01",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "1.88",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "4.51",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "5.75",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "8.53",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "9.16",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 103234,
+    "nombre": "Herminia",
+    "apellido1": "Henry",
+    "apellido2": "Shaw",
+    "fechaNacimiento": "1994-7-4",
+    "email": "herminia.henry.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "6.91",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "6.93",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "2.82",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "5.67",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "7.88",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "9.54",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "5.74",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 104741,
+    "nombre": "Earnestine",
+    "apellido1": "Mcclain",
+    "apellido2": "Ayala",
+    "fechaNacimiento": "1993-11-18",
+    "email": "earnestine.mcclain.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "9.31",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "1.92",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "7.87",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "1.16",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "3.48",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "3.11",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "4.50",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 103473,
+    "nombre": "Sargent",
+    "apellido1": "Martin",
+    "apellido2": "Jordan",
+    "fechaNacimiento": "1988-3-18",
+    "email": "sargent.martin.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "3.73",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "3.25",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "1.29",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "4.74",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "3.02",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "4.77",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "9.89",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 108761,
+    "nombre": "Delgado",
+    "apellido1": "Fuentes",
+    "apellido2": "Preston",
+    "fechaNacimiento": "1996-4-18",
+    "email": "delgado.fuentes.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "2.02",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "3.40",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "4.95",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "2.33",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "1.93",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "8.13",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "2.82",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 104756,
+    "nombre": "Denise",
+    "apellido1": "Stafford",
+    "apellido2": "Shields",
+    "fechaNacimiento": "1994-10-23",
+    "email": "denise.stafford.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "4.35",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "6.35",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "3.38",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "9.75",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "8.29",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "4.08",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "2.26",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 101942,
+    "nombre": "Clayton",
+    "apellido1": "Byrd",
+    "apellido2": "Kane",
+    "fechaNacimiento": "1999-6-13",
+    "email": "clayton.byrd.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "8.95",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "1.06",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "8.56",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "5.72",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "5.56",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "7.02",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "3.73",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 105533,
+    "nombre": "Wolfe",
+    "apellido1": "Anthony",
+    "apellido2": "Bowers",
+    "fechaNacimiento": "1998-6-5",
+    "email": "wolfe.anthony.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "6.00",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "6.83",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "1.53",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "2.56",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "1.69",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "4.66",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "3.11",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 101550,
+    "nombre": "Joni",
+    "apellido1": "Lawson",
+    "apellido2": "Middleton",
+    "fechaNacimiento": "1990-12-6",
+    "email": "joni.lawson.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "1.08",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "6.32",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "4.71",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "2.55",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "5.72",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "1.42",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "8.17",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 103683,
+    "nombre": "Phelps",
+    "apellido1": "Chandler",
+    "apellido2": "Hendrix",
+    "fechaNacimiento": "1995-10-4",
+    "email": "phelps.chandler.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "4.34",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "6.59",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "2.15",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "6.19",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "5.71",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "5.83",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "6.86",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 107550,
+    "nombre": "Yesenia",
+    "apellido1": "Forbes",
+    "apellido2": "Lester",
+    "fechaNacimiento": "1981-9-3",
+    "email": "yesenia.forbes.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "1.46",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "9.27",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "7.30",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "8.53",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "6.83",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "8.48",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "1.82",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 105534,
+    "nombre": "Bennett",
+    "apellido1": "Wagner",
+    "apellido2": "Tran",
+    "fechaNacimiento": "1994-7-17",
+    "email": "bennett.wagner.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "7.77",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "2.87",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "5.02",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "5.82",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "3.43",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "9.73",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "3.73",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 104678,
+    "nombre": "Hillary",
+    "apellido1": "Carver",
+    "apellido2": "Emerson",
+    "fechaNacimiento": "1999-1-30",
+    "email": "hillary.carver.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "2.98",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "4.70",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "7.37",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "2.42",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "2.74",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "6.16",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "6.51",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 102399,
+    "nombre": "Charlotte",
+    "apellido1": "Dickerson",
+    "apellido2": "Avery",
+    "fechaNacimiento": "1996-2-5",
+    "email": "charlotte.dickerson.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "5.31",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "2.82",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "2.02",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "1.48",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "7.31",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "7.39",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "1.63",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 108817,
+    "nombre": "Olive",
+    "apellido1": "Rivas",
+    "apellido2": "Hinton",
+    "fechaNacimiento": "1975-5-11",
+    "email": "olive.rivas.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "9.25",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "5.55",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "3.54",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "8.75",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "3.80",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "2.70",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "3.46",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 101645,
+    "nombre": "Dolly",
+    "apellido1": "Goodwin",
+    "apellido2": "Guthrie",
+    "fechaNacimiento": "1993-7-7",
+    "email": "dolly.goodwin.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "8.52",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "1.18",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "8.57",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "9.76",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "4.23",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "7.27",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "8.84",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 105494,
+    "nombre": "Nona",
+    "apellido1": "Potter",
+    "apellido2": "Garner",
+    "fechaNacimiento": "1991-9-22",
+    "email": "nona.potter.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "7.76",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "4.13",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "4.88",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "4.58",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "1.35",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "2.69",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "1.72",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 102942,
+    "nombre": "Pearson",
+    "apellido1": "Le",
+    "apellido2": "Robinson",
+    "fechaNacimiento": "1997-7-12",
+    "email": "pearson.le.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "4.36",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "5.77",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "1.65",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "9.84",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "7.32",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "2.63",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "4.34",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 106469,
+    "nombre": "Prince",
+    "apellido1": "Prince",
+    "apellido2": "Clements",
+    "fechaNacimiento": "1987-10-8",
+    "email": "prince.prince.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "7.81",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "5.17",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "5.84",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "9.00",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "5.54",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "1.77",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "9.25",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 108981,
+    "nombre": "Stone",
+    "apellido1": "Ballard",
+    "apellido2": "Heath",
+    "fechaNacimiento": "1996-3-13",
+    "email": "stone.ballard.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "6.07",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "5.10",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "8.44",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "3.80",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "7.06",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "5.97",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "9.47",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 102048,
+    "nombre": "Marjorie",
+    "apellido1": "Howell",
+    "apellido2": "Rush",
+    "fechaNacimiento": "1986-6-14",
+    "email": "marjorie.howell.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "8.03",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "1.02",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "7.80",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "6.64",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "1.98",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "6.95",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "8.22",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 105451,
+    "nombre": "Lindsey",
+    "apellido1": "Meyers",
+    "apellido2": "Mejia",
+    "fechaNacimiento": "1990-1-17",
+    "email": "lindsey.meyers.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "8.52",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "1.38",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "8.01",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "1.43",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "7.79",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "4.53",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "2.06",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 104195,
+    "nombre": "Bonner",
+    "apellido1": "Reese",
+    "apellido2": "Jimenez",
+    "fechaNacimiento": "1992-7-8",
+    "email": "bonner.reese.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "7.63",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "4.16",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "3.08",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "8.96",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "5.96",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "4.63",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "3.58",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 106949,
+    "nombre": "Fischer",
+    "apellido1": "Washington",
+    "apellido2": "Maldonado",
+    "fechaNacimiento": "1998-3-2",
+    "email": "fischer.washington.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "9.04",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "6.89",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "6.83",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "6.90",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "2.12",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "1.33",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "1.19",
+        "codAsig": "ANG"
+      }
+    ]
+  },
+  {
+    "nia": 108170,
+    "nombre": "Stevens",
+    "apellido1": "Conrad",
+    "apellido2": "Herman",
+    "fechaNacimiento": "1989-9-5",
+    "email": "stevens.conrad.a@ies1xabia.org",
+    "notas": [
+      {
+        "calificacion": "6.48",
+        "codAsig": "AAD"
+      },
+      {
+        "calificacion": "1.45",
+        "codAsig": "DDI"
+      },
+      {
+        "calificacion": "7.02",
+        "codAsig": "PMDM"
+      },
+      {
+        "calificacion": "7.35",
+        "codAsig": "PSP"
+      },
+      {
+        "calificacion": "3.02",
+        "codAsig": "SGE"
+      },
+      {
+        "calificacion": "3.15",
+        "codAsig": "EIE"
+      },
+      {
+        "calificacion": "5.37",
+        "codAsig": "ANG"
+      }
+    ]
+  }
+]

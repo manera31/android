@@ -1,0 +1,30 @@
+[
+  {   
+    "codAsig": "AAD",
+    "nomAsig": "Acceso a base de datos"
+  },
+  {   
+    "codAsig": "DDI",
+    "nomAsig": "Desarrollo de interfaces"
+  },
+  {   
+    "codAsig": "PMDM",
+    "nomAsig": "Programación multimedia y dispositivos móviles"
+  },
+  {   
+    "codAsig": "PSP",
+    "nomAsig": "Progroamación de servicios y procesos"
+  },
+  {
+    "codAsig": "SGE",
+    "nomAsig": "Sistemas de gestión empresarial"
+  },
+  {
+    "codAsig": "EIE",
+    "nomAsig": "Empresa e iniciativa emprendedora"
+  },
+  {
+    "codAsig": "ANG",
+    "nomAsig": "Inglés técnico"
+  }
+]
