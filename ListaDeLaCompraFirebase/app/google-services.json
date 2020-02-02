@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "845653556299",
+    "firebase_url": "https://listadelacomprafirebase.firebaseio.com",
+    "project_id": "listadelacomprafirebase",
+    "storage_bucket": "listadelacomprafirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845653556299:android:a54359ef56258a5d2da1ce",
+        "android_client_info": {
+          "package_name": "com.joanmanera.listadelacomprafirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845653556299-ubdlvpdu23pteofv33pcdo9mteves63r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joanmanera.listadelacomprafirebase",
+            "certificate_hash": "8f981df19389a3aca8fede0cd01e7ec047ed4feb"
+          }
+        },
+        {
+          "client_id": "845653556299-kguma41m52fq10l6aeivr8ejmg0270ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbWgNkFkWXhDMLgJevEi2TyxDgDJBdLzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845653556299-kguma41m52fq10l6aeivr8ejmg0270ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
